@@ -17,7 +17,7 @@
     Esse problema, entre outros, é muito comum quando não há tanta afinidade com a estrutura do **JSON**, pois se não possuir um formatador de código que auxilie nesses detalhes, fica difícil identificá-los sem causar algum erro.
     Por exemplo, falta de chaves de fechamento, falta de aspas em strings, etc.
 
-    [Arquivo Corrigido](https://github.com/GabeCris/Maeztra/blob/main/Atividade-03/search.json)
+    [Arquivo Corrigido](https://github.com/GabeCris/Maeztra/blob/main/Atividade-03/search.jsonc)
 
 2. ### product-comparison-drawer.json
     
