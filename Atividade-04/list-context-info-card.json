@@ -1,0 +1,130 @@
+{
+  "flex-layout.row#home-info-slider": {
+    "title": "MZ | Info Slider",
+    "props": {
+      "fullWidth": false,
+      "paddingTop": {
+        "desktop": 5,
+        "tablet": 5,
+        "phone": 0
+      },
+      "paddingBottom": {
+        "desktop": 6,
+        "tablet": 6,
+        "phone": 0
+      },
+      "marginTop": {
+        "desktop": 0,
+        "tablet": 0,
+        "phone": 0
+      },
+      "marginBottom": {
+        "desktop": 0,
+        "tablet": 0,
+        "phone": 0
+      },
+      "colGap": {
+        "desktop": 0,
+        "tablet": 0,
+        "phone": 0
+      },
+      "borderWidth": 0,
+      "colSizing": "auto",
+      "preventHorizontalStretch": false,
+      "horizontalAlign": "left",
+      "preserveLayoutOnMobile": false
+    },
+    "children": [
+      "flex-layout.col#home-info-slider"
+    ]
+  },
+  "flex-layout.col#home-info-slider": {
+    "children": [
+      "rich-text#home-info-slider-title",
+      "list-context.info-card-list#home-info-slider-list"
+    ]
+  },
+  "rich-text#home-info-slider-title": {
+    "title": "MZ | Info Slider Title",
+    "props": {
+      "text": "Componente Teste"
+    }
+  },
+  "slider-layout#home-info-slider": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
+      "centerModeSlidesGap": 24
+    }
+  },
+  "list-context.info-card-list#home-info-slider-list": {
+    "children": [
+      "slider-layout#home-info-slider"
+    ],
+    "text": "MZ | Info Slider List",
+    "props": {
+      "infoCards": [
+        {
+          "imageUrl": "https://placehold.co/150x300",
+          "imageMobileUrl": "https://placehold.co/150x300",
+          "isFullModeStyle": false,
+          "headline": "Nome Categoria",
+          "textPosition": "left",
+          "textAlignment": "left",
+          "callToActionMode": "none"
+        },
+        {
+          "imageUrl": "https://placehold.co/150x300",
+          "imageMobileUrl": "https://placehold.co/150x300",
+          "isFullModeStyle": false,
+          "headline": "Nome Categoria",
+          "textPosition": "left",
+          "textAlignment": "left",
+          "callToActionMode": "none"
+        },
+        {
+          "imageUrl": "https://placehold.co/150x300",
+          "imageMobileUrl": "https://placehold.co/150x300",
+          "isFullModeStyle": false,
+          "headline": "Nome Categoria",
+          "textPosition": "left",
+          "textAlignment": "left",
+          "callToActionMode": "none"
+        },
+        {
+          "imageUrl": "https://placehold.co/150x300",
+          "imageMobileUrl": "https://placehold.co/150x300",
+          "isFullModeStyle": false,
+          "headline": "Nome Categoria",
+          "textPosition": "left",
+          "textAlignment": "left",
+          "callToActionMode": "none"
+        },
+        {
+          "imageUrl": "https://placehold.co/150x300",
+          "imageMobileUrl": "https://placehold.co/150x300",
+          "isFullModeStyle": false,
+          "headline": "Nome Categoria",
+          "textPosition": "left",
+          "textAlignment": "left",
+          "callToActionMode": "none"
+        },
+        {
+          "imageUrl": "https://placehold.co/150x300",
+          "imageMobileUrl": "https://placehold.co/150x300",
+          "isFullModeStyle": false,
+          "headline": "Nome Categoria",
+          "textPosition": "left",
+          "textAlignment": "left",
+          "callToActionMode": "none"
+        }
+      ]
+    }
+  }
+}
