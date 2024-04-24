@@ -15,7 +15,8 @@
   "dependencies": {
     "vtex.store": "2.x",
     "vtex.store-header": "2.x",
-    "vtex.info-card-list": "0.x"
+    "vtex.info-card-list": "0.x",
+    "vtex.slider-layout": "0.x"
   },
   "peerDependencies": {
     "vtex.reviews-and-ratings": "3.x"
